@@ -1,7 +1,7 @@
 
 function [X, Y] = draw_curve(x, y)
 % get series of vals for t
-n = input('number of subdivisions: ');
+n = 100 % input('number of subdivisions: ');
 interval = 1/n;
 T = 0:interval:1; % n evenly spaced intervals between 0 and 1
 

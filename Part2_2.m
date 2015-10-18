@@ -3,7 +3,7 @@ clc
 figure(1)
 clf
 axis([0 100 0 100]) 
-
+1
 % get input
 poly = impoly(); % interactive placement of polygon on axes
 positions = poly.getPosition(); % matrix with rows representing vertices
